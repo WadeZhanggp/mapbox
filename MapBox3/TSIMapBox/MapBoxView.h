@@ -20,4 +20,9 @@
  */
 - (void)setMapStyleURLWith:(NSInteger)style;
 
+/*!
+ 加入路线轨迹
+ */
+- (void)addRouteLineWith:(NSArray *)routeArray;
+
 @end
