@@ -20,7 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.mapBoxView = [[MapBoxView alloc] initWithFrame:self.view.frame];
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.mapBoxView = [[MapBoxView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width/4 * 3)];
     [self.view addSubview:self.mapBoxView];
     
 }

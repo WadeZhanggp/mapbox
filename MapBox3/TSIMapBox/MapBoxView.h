@@ -25,4 +25,9 @@
  */
 - (void)addRouteLineWith:(NSArray *)routeArray;
 
+/*!
+ 高德地图路径数组转成mapbox路径数组
+ */
+-(NSArray *)mapboxArrayTransformWith:(NSArray *)gaodeArray;
+
 @end
